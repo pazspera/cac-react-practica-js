@@ -52,6 +52,7 @@ body {
 
 .floor {
   background-color: #4a2b1c;
+  border-top: 2px solid black;
   grid-column: 1/6;
   grid-row: 5;
 }
