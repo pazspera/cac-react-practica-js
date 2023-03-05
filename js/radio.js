@@ -24,10 +24,13 @@ const handleRadio = () => {
 
   if (musicPlaying) {
     $song.play();
-    $music.classList.remove("none");
+    setTimeout(() => {
+      $music.classList.remove("none");
+    }, 700);
   } else {
     $song.pause();
     $music.classList.add("none");
+    $song.currentTime = 0;
   }
 };
 
