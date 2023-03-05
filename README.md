@@ -6,6 +6,8 @@ Ejercicio de práctica de manipulación del DOM.
 
 [Link al ejercicio](https://pazspera.github.io/cac-react-practica-js/)
 
+[Captura del proyecto](assets/sample.jpg)
+
 Iconos usados en el proyecto:
 - [Old radio icons created by Freepik - Flaticon](https://www.flaticon.com/free-icons/old-radio)
 - [Switch icons created by Those Icons - Flaticon](https://www.flaticon.com/free-icons/switch)
