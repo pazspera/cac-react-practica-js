@@ -1,6 +1,6 @@
 # Codo a Codo React: Ejercicio práctica DOM
 
-Un cuarto tranquilo, una radio y los viejos clásicos del rock n roll. 
+Un cuarto tranquilo, perfecto para bajar las luces y disfrutar algunos clásicos del rock n roll. 
 
 Ejercicio de práctica de manipulación del DOM.
 
