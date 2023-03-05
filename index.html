@@ -4,18 +4,22 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="shortcut icon" type="image/png" href="./assets/old-radio.png" />
     <link rel="stylesheet" href="./css/radio.css" />
-    <title>Document</title>
+    <title>Radio clásica</title>
   </head>
   <body>
     <main>
-      <div class="room light-off">
-        <img src="./assets/ceiling-lamp.png" class="lamp" alt="" />
-        <img src="./assets/switch.png" class="lightswitch" alt="" />
-        <img src="./assets/musical_notes.gif" class="music none" alt="" />
-        <img src="./assets/old-radio.png" class="old-radio" alt="" />
+      <div class="room light-on" id="room">
+        <img src="./assets/ceiling-lamp.png" class="lamp" alt="Lámpara de techo" />
+        <img src="./assets/switch.png" class="lightswitch" id="lightswitch" alt="Interruptor de luz" />
+        <img src="./assets/musical_notes.gif" class="music none" id="music" alt="Notas musicales" />
+        <img src="./assets/old-radio.png" class="old-radio" id="radio" alt="Radio antigua" />
         <div class="floor"></div>
+        <audio src="./assets/blue_suede_shoes.mp3" id="song" loop></audio>
       </div>
     </main>
+
+    <script src="./js/radio.js"></script>
   </body>
 </html>
